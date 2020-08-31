@@ -29,19 +29,20 @@ void game()
 			break;
 		};
 		ComputerMove(board,ROW,COL);
-		DisplayBoard(board,ROW,COL);
-		g=ComputerWin(board,ROW,COL);
-		if (g == 'C')
-		{
-			printf("玩家赢\n");
-			break;
-		};
+		DisplayBoard(board,ROW,COL);	
 		f=Isfull(board, ROW, COL);
 		if (f == 'F')
 		{
 			printf("棋满，平局\n");
 			break;
 		};
+		g=ComputerWin(board,ROW,COL);
+		if (g == 'C')
+		{
+			printf("电脑赢\n");
+			break;
+		};
+	
 	}
 }
 int main()

@@ -97,7 +97,7 @@ char PlayerWin(char board[ROW][COL], int row, int col)
 			if (board[i][j] == '*')
 				count++;
 		}
-		if (count == row == col)
+		if (count == row )
 			return	'P';
 	}
 	//列判断胜负
@@ -109,7 +109,7 @@ char PlayerWin(char board[ROW][COL], int row, int col)
 			if (board[j][i] == '*')
 				count++;
 		}
-		if (count == row == col)
+		if (count == row )
 			return	'P';
 	}
 	//对角线判断胜负
@@ -118,7 +118,7 @@ char PlayerWin(char board[ROW][COL], int row, int col)
 		count = 0;
 		if (board[i][i] == '*')
 			count++;
-		if (count == row == col)
+		if (count == row )
 		return	'P';
 	};
 }
@@ -136,7 +136,7 @@ char ComputerWin(char board[ROW][COL], int row, int col)
 			if (board[i][j] == '#')
 				count++;
 		}
-		if (count == row == col)
+		if (count == row )
 			return	'C';
 	}
 	//列判断胜负
@@ -148,7 +148,7 @@ char ComputerWin(char board[ROW][COL], int row, int col)
 			if (board[j][i] == '#')
 				count++;
 		}
-		if (count == row == col)
+		if (count == row )
 			return	'C';
 	}
 	//对角线判断胜负
@@ -157,7 +157,7 @@ char ComputerWin(char board[ROW][COL], int row, int col)
 		count = 0;
 		if (board[i][i] == '#')
 			count++;
-		if (count == row == col)
+		if (count == row )
 			return	'C';
 	};
 }
