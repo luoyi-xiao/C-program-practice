@@ -15,17 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="strstr.c">
+    <ClCompile Include="test.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="memcopy.c">
+    <ClCompile Include="contact.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="memmove.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="str.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="contact.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

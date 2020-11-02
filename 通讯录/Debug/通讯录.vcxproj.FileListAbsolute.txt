@@ -1,0 +1,2 @@
+D:\C-program-practice\通讯录\Debug\通讯录.exe
+D:\C-program-practice\通讯录\Debug\通讯录.pdb

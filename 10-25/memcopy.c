@@ -15,14 +15,6 @@ void* my_memcpy(void* dest, const void* src, size_t count)//size_t countÊÇ×Ö½ÚÊý
 	}
 	return ret;
 }
-void print(int* p)
-{
-	while (*p!=NULL)
-	{
-		printf("%d", *p);
-		p++;
-	}
-}
 int main()
 {
 	int arr1[] = {1,2,3,0,4,5};
