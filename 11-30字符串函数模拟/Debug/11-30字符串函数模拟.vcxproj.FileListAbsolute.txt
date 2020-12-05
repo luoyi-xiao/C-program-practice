@@ -1,0 +1,2 @@
+D:\C-program-practice\11-30字符串函数模拟\Debug\11-30字符串函数模拟.exe
+D:\C-program-practice\11-30字符串函数模拟\Debug\11-30字符串函数模拟.pdb
