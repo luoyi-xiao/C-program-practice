@@ -1,0 +1,2 @@
+D:\C-program-practice\n字符串模拟\Debug\n字符串模拟.exe
+D:\C-program-practice\n字符串模拟\Debug\n字符串模拟.pdb
